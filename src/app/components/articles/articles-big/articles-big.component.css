@@ -1,0 +1,38 @@
+.container-articles-big{
+    width: 100%;
+    padding: 1rem;
+}
+
+.articles-big-img{
+    width: 80%;
+}
+
+.articles-big-img img{
+    display: block;
+    width: 100%;
+    border: 3px double #c3c3c3;
+    border-radius: 5px;
+}
+
+.articles-big-info{
+    width: 80%;
+}
+
+.articles-big-info-date{
+    font-size: small;
+    margin: 1em 0 ;
+    color: gray;
+}
+
+.articles-big-info-title{
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+
+@media(max-width: 760px){
+    .articles-big-img,
+    .articles-big-info{
+        width: 100%;
+    }
+}

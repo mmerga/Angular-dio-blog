@@ -1,0 +1,21 @@
+<div class="container-articles-small">
+    <div class="articles-small-img">
+        <a [routerLink]="['post', id]" rel="noopener noreferrer">
+            <img 
+            src="{{imgUrl}}"
+            alt="{{title}}" 
+            srcset=""
+            >
+        </a>
+    </div>
+    <div class="articles-small-info">
+        <p class="articles-small-info-date">
+            {{date}}
+        </p>
+        <a [routerLink]="['post', id]" rel="noopener noreferrer">
+            <p class="articles-small-info-title">
+                {{title}}
+            </p>
+        </a>
+    </div>
+</div>

@@ -1,1 +1,23 @@
 /* You can add global styles to this file, and also import other style files */
+*, *::before, *::after{
+    box-sizing: border-box;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    color: #C3C3C3;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    width: 100vw;
+    overflow-x: hidden;
+    min-height: 100vh;
+    background-color: #121212;
+    padding-bottom: 2rem;
+}
+
+a{
+    text-decoration: none;
+}

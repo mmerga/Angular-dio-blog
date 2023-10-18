@@ -1,0 +1,16 @@
+div.container-nav-bar{
+    width: 100%;
+    padding: 1rem 0 ;
+}
+
+.container-nav-bar ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3em;
+    font-weight: bold;
+}
+.container-nav-bar ul a {
+    text-decoration: none;
+}
